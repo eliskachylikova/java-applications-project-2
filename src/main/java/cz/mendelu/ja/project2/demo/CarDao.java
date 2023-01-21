@@ -1,7 +1,10 @@
 package cz.mendelu.ja.project2.demo;
 
+import cz.mendelu.ja.project2.annotations.Component;
+
 import java.util.*;
 
+@Component
 public class CarDao {
 
     private Map<String, Car> cars = new HashMap<>();
