@@ -6,6 +6,6 @@ import cz.mendelu.ja.project2.annotations.Component;
 public class ZnackaService {
 
     public boolean isValid(String znacka) {
-        return "Hondicka".equals(znacka);
+        return "Honda".equals(znacka);
     }
 }

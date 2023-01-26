@@ -7,7 +7,7 @@ public class Application {
             ApplicationContext applicationContext = new ApplicationContext(ApplicationConfig.class);
             CarController carController = applicationContext.getInstance(CarController.class);
 
-            System.out.println(carController.post("123", "Hondicka"));
+            System.out.println(carController.post("123", "Honda"));
             System.out.println(carController.getAll());
 
         } catch (Exception e) {

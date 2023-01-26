@@ -14,7 +14,7 @@ public class CarService {
 
     public Car create(String spz, String znacka) {
         if (!znackaService.isValid(znacka)) {
-            throw new IllegalArgumentException("Neni Hondicka");
+            throw new IllegalArgumentException("Neni Honda");
         }
         var car = new Car(spz, znacka);
         var saved = carDao.save(car);
